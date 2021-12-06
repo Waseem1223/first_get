@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=material+Icons">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>muflh</title>
+    </head>
+    <script>
+    function getuser(){
+        var pass=document.getElementById("pass").value;
+        localStorage.setItem("textvalue",pass);
+        return false;
+    }
+    </script>
+    
+    <style>
+        nav{
+            background-color: blue;text-align: center;
+            
+        }
+        a{
+            color: black;font-size: 20px;
+        }
+        form{
+            
+            text-align:center;
+            
+        }
+        div{
+            border: 2px solid black;
+            border-width : thin;
+        }
+        p{
+            font-size: 30px;color: antiquewhite;background-color: blue
+        }
+       footer{
+            text-align: center;color: black;
+           background-color:;
+          font-family :cursive ;
+          font-size: 20px;
+          font-style: oblique;
+        }
+        html{
+            background-color:cornflowerblue
+        }
+        marquee{
+            font-size: 20px;
+        }
+        button:hover{
+            background-color: darkorange;
+        }
+        button{
+            font-size: 30px;border: 2px solid blue ;
+            border-radius: 10px;
+            display: inline-block;
+            background-color: white;
+            transition-duration: 0.5s;
+        }
+        input:hover{
+            font-size: 20px ;
+            border: 2px solid darkorange;
+        }
+        table ,th,td {
+            border: 2px solid black;
+        }
+        table{
+            width: 100%;
+        }
+        </style>
+    
+    <br>
+    <marquee> اتق الله في استخدامك للأنترنت وراقب الله <br> لاتجعل الله اهون الناظرين اليك </marquee>
+    <br>
+    <br><br>
+    <body>
+        <form action="stat.html"  >
+            <p>شبكة البرنس اللاسلكية </p>
+            <div>
+                <br>
+            <label> ادخل رمز الكرت</label> <br>
+        <input type="number"  name="pass"   placeholder="رمز الدخول" id="pass" />
+            <br><br>
+            <input type="submit" value="تسجيل الدخول" onclick="getuser" />
+        <br>
+                <br>
+                </div>
+            <p> فئات الكروت </p>
+            <br>
+            <table >
+            <tr>
+                <th>كرت 100 ريال </th>
+                <th>
+                    كرت 200 ريال 
+                </th>
+                <th>
+            كرت 500 ريال 
+                </th><th>         كرت 1000 ريال 
+                </th><th>
+                    كرت 3000 ريال 
+                </th>
+                </tr>
+               
+                <tr>
+                <td>
+                    المدة يوم 
+                    150 ميقا 
+                    </td>
+                    <td>
+                    المدة يوم 
+                    400 ميقا 
+                    </td>
+                    <td>
+                        المدة أسبوع 
+                        1 قيقا 
+                    </td>
+                    <td>
+                    المدة شهر 
+                        3 قيقا 
+                    </td>
+                    <td>
+                    المدة شهر 
+                        10 قيقا 
+                    </td>
+                </tr>
+            </table>
+            <br/><br/><br/><br/>
+        </form>
+    </body>
+    <footer>
+    <span> :للاستفسارات او الاقتراحات يرجى التواصل على الارقام التالية </span> <br/>
+        <spam > واتس 701766053 </spam> <br/>
+        <spam>او الاتصال على الرقم 773540533</spam>
+    </footer>
+</html>
